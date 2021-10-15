@@ -9,12 +9,18 @@
 /* Begin PBXBuildFile section */
 		80B4BD092704A72C00F43A84 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80B4BD082704A72C00F43A84 /* AppDelegate.swift */; };
 		80B4BD0B2704A72C00F43A84 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80B4BD0A2704A72C00F43A84 /* SceneDelegate.swift */; };
-		80B4BD0D2704A72C00F43A84 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80B4BD0C2704A72C00F43A84 /* ViewController.swift */; };
+		80B4BD0D2704A72C00F43A84 /* ChatsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80B4BD0C2704A72C00F43A84 /* ChatsViewController.swift */; };
 		80B4BD102704A72C00F43A84 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80B4BD0E2704A72C00F43A84 /* Main.storyboard */; };
 		80B4BD122704A72E00F43A84 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80B4BD112704A72E00F43A84 /* Assets.xcassets */; };
 		80B4BD152704A72E00F43A84 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80B4BD132704A72E00F43A84 /* LaunchScreen.storyboard */; };
 		80B4BD202704A72E00F43A84 /* ChitchatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80B4BD1F2704A72E00F43A84 /* ChitchatTests.swift */; };
 		80B4BD2B2704A72E00F43A84 /* ChitchatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80B4BD2A2704A72E00F43A84 /* ChitchatUITests.swift */; };
+		80D14C732719712F0038455F /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D14C722719712F0038455F /* LoginViewController.swift */; };
+		80D14C7B2719714D0038455F /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D14C7A2719714D0038455F /* RegisterViewController.swift */; };
+		80D14C80271971860038455F /* PhotoViewerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D14C7F271971860038455F /* PhotoViewerViewController.swift */; };
+		80D14C85271971A70038455F /* VideoPlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D14C84271971A70038455F /* VideoPlayerViewController.swift */; };
+		80D14C8A271971DB0038455F /* NewConverstationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D14C89271971DB0038455F /* NewConverstationViewController.swift */; };
+		80D14C8F271971FB0038455F /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D14C8E271971FB0038455F /* ProfileViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +44,7 @@
 		80B4BD052704A72C00F43A84 /* Chitchat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Chitchat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		80B4BD082704A72C00F43A84 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		80B4BD0A2704A72C00F43A84 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		80B4BD0C2704A72C00F43A84 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		80B4BD0C2704A72C00F43A84 /* ChatsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatsViewController.swift; sourceTree = "<group>"; };
 		80B4BD0F2704A72C00F43A84 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		80B4BD112704A72E00F43A84 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		80B4BD142704A72E00F43A84 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +55,12 @@
 		80B4BD262704A72E00F43A84 /* ChitchatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChitchatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		80B4BD2A2704A72E00F43A84 /* ChitchatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChitchatUITests.swift; sourceTree = "<group>"; };
 		80B4BD2C2704A72E00F43A84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80D14C722719712F0038455F /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		80D14C7A2719714D0038455F /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		80D14C7F271971860038455F /* PhotoViewerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoViewerViewController.swift; sourceTree = "<group>"; };
+		80D14C84271971A70038455F /* VideoPlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerViewController.swift; sourceTree = "<group>"; };
+		80D14C89271971DB0038455F /* NewConverstationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewConverstationViewController.swift; sourceTree = "<group>"; };
+		80D14C8E271971FB0038455F /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,12 +111,11 @@
 		80B4BD072704A72C00F43A84 /* Chitchat */ = {
 			isa = PBXGroup;
 			children = (
-				80B4BD082704A72C00F43A84 /* AppDelegate.swift */,
-				80B4BD0A2704A72C00F43A84 /* SceneDelegate.swift */,
-				80B4BD0C2704A72C00F43A84 /* ViewController.swift */,
-				80B4BD0E2704A72C00F43A84 /* Main.storyboard */,
-				80B4BD112704A72E00F43A84 /* Assets.xcassets */,
-				80B4BD132704A72E00F43A84 /* LaunchScreen.storyboard */,
+				80B4BD3F2704AD3E00F43A84 /* Resources */,
+				80B4BD3E2704AD2600F43A84 /* ViewModels */,
+				80B4BD3D2704AD1B00F43A84 /* Models */,
+				80B4BD3C2704AD0A00F43A84 /* Views */,
+				80B4BD3B2704ACFA00F43A84 /* Controllers */,
 				80B4BD162704A72E00F43A84 /* Info.plist */,
 			);
 			path = Chitchat;
@@ -126,6 +137,61 @@
 				80B4BD2C2704A72E00F43A84 /* Info.plist */,
 			);
 			path = ChitchatUITests;
+			sourceTree = "<group>";
+		};
+		80B4BD3B2704ACFA00F43A84 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				80B4BD0C2704A72C00F43A84 /* ChatsViewController.swift */,
+				80D14C722719712F0038455F /* LoginViewController.swift */,
+				80D14C7A2719714D0038455F /* RegisterViewController.swift */,
+				80D14C7F271971860038455F /* PhotoViewerViewController.swift */,
+				80D14C84271971A70038455F /* VideoPlayerViewController.swift */,
+				80D14C89271971DB0038455F /* NewConverstationViewController.swift */,
+				80D14C8E271971FB0038455F /* ProfileViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		80B4BD3C2704AD0A00F43A84 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				80B4BD402704AD8B00F43A84 /* Storyboards */,
+				80B4BD112704A72E00F43A84 /* Assets.xcassets */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		80B4BD3D2704AD1B00F43A84 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		80B4BD3E2704AD2600F43A84 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		80B4BD3F2704AD3E00F43A84 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				80B4BD082704A72C00F43A84 /* AppDelegate.swift */,
+				80B4BD0A2704A72C00F43A84 /* SceneDelegate.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		80B4BD402704AD8B00F43A84 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				80B4BD0E2704A72C00F43A84 /* Main.storyboard */,
+				80B4BD132704A72E00F43A84 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,9 +324,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				80B4BD0D2704A72C00F43A84 /* ViewController.swift in Sources */,
+				80D14C732719712F0038455F /* LoginViewController.swift in Sources */,
+				80D14C7B2719714D0038455F /* RegisterViewController.swift in Sources */,
+				80B4BD0D2704A72C00F43A84 /* ChatsViewController.swift in Sources */,
+				80D14C85271971A70038455F /* VideoPlayerViewController.swift in Sources */,
 				80B4BD092704A72C00F43A84 /* AppDelegate.swift in Sources */,
 				80B4BD0B2704A72C00F43A84 /* SceneDelegate.swift in Sources */,
+				80D14C8F271971FB0038455F /* ProfileViewController.swift in Sources */,
+				80D14C80271971860038455F /* PhotoViewerViewController.swift in Sources */,
+				80D14C8A271971DB0038455F /* NewConverstationViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

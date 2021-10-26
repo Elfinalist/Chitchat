@@ -11,6 +11,7 @@
 		011702AEBD7D7496B17E17B3 /* libPods-Chitchat-ChitchatUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EE622B3E11159873A17D76D6 /* libPods-Chitchat-ChitchatUITests.a */; };
 		56B8DD908F8BF01DC4EA1F1A /* libPods-ChitchatTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6839EA975029DEA15608A1FE /* libPods-ChitchatTests.a */; };
 		8025DF25271F1D5E00ECA68C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8025DF24271F1D5E00ECA68C /* GoogleService-Info.plist */; };
+		808D92B52723FB67001E496F /* DatabaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808D92B42723FB67001E496F /* DatabaseManager.swift */; };
 		80A361E927198F5800E59DD6 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80A361E827198F5800E59DD6 /* Extensions.swift */; };
 		80B4BD092704A72C00F43A84 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80B4BD082704A72C00F43A84 /* AppDelegate.swift */; };
 		80B4BD0B2704A72C00F43A84 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80B4BD0A2704A72C00F43A84 /* SceneDelegate.swift */; };
@@ -51,6 +52,7 @@
 		53D2CA14A1D8983FEF0273D6 /* Pods-Chitchat-ChitchatUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Chitchat-ChitchatUITests.release.xcconfig"; path = "Target Support Files/Pods-Chitchat-ChitchatUITests/Pods-Chitchat-ChitchatUITests.release.xcconfig"; sourceTree = "<group>"; };
 		6839EA975029DEA15608A1FE /* libPods-ChitchatTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ChitchatTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8025DF24271F1D5E00ECA68C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		808D92B42723FB67001E496F /* DatabaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseManager.swift; sourceTree = "<group>"; };
 		80A361E827198F5800E59DD6 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		80B4BD052704A72C00F43A84 /* Chitchat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Chitchat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		80B4BD082704A72C00F43A84 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -226,6 +228,7 @@
 				80B4BD082704A72C00F43A84 /* AppDelegate.swift */,
 				80B4BD0A2704A72C00F43A84 /* SceneDelegate.swift */,
 				80A361E827198F5800E59DD6 /* Extensions.swift */,
+				808D92B42723FB67001E496F /* DatabaseManager.swift */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -452,6 +455,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				80D14C732719712F0038455F /* LoginViewController.swift in Sources */,
+				808D92B52723FB67001E496F /* DatabaseManager.swift in Sources */,
 				80D14C7B2719714D0038455F /* RegisterViewController.swift in Sources */,
 				80B4BD0D2704A72C00F43A84 /* ChatsViewController.swift in Sources */,
 				80D14C85271971A70038455F /* VideoPlayerViewController.swift in Sources */,
